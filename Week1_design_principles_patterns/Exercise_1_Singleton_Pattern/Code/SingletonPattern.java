@@ -1,4 +1,4 @@
-package src.Week1_design_principles_patterns.Exercise_1_Singleton_Pattern.Code;
+package Week1_design_principles_patterns.Exercise_1_Singleton_Pattern.Code;
 
 public class SingletonPattern {
 
@@ -16,7 +16,7 @@ public class SingletonPattern {
     }
 
     public void showMessage() {
-        System.out.println("Hii from Singleton");
+        System.out.println("Hii from Singleton!");
     }
 
     public static void main(String[] args) {
@@ -24,4 +24,3 @@ public class SingletonPattern {
         obj.showMessage();
     }
 }
-
