@@ -1,9 +1,9 @@
-### IntelliJ IDEA ###
+# IntelliJ IDEA
+.idea/
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+*.iml
 
-### Eclipse ###
+# Eclipse
 .apt_generated
 .classpath
 .factorypath
@@ -12,18 +12,22 @@ out/
 .springBeans
 .sts4-cache
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
+# VS Code
 .vscode/
 
-### Mac OS ###
+# OS Files
 .DS_Store
+Thumbs.db
+
+# Java Build Outputs
+*.class
+*.log
+*.tmp
