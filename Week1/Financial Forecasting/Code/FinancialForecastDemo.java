@@ -13,6 +13,6 @@ public class FinancialForecastDemo {
         revenueData.add(155.2);
 
         FinancialForecaster forecaster = new FinancialForecaster(revenueData, 3);
-        forecaster.forecastNext(3); // Forecast next 3 months
+        forecaster.forecastNext(3);
     }
 }
