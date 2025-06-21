@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class PayPalPayment implements PaymentStrategy {
+    private String email;
 
-public class PayPalPayment {
+    public PayPalPayment(String email) {
+        this.email = email;
+    }
+
+    public void pay(double amount) {
+        System.out.println("Paid $" + amount + " via PayPal account: " + email);
+    }
 }

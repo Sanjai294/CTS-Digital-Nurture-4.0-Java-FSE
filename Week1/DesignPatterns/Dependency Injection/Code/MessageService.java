@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
 public interface MessageService {
+    void sendMessage(String message, String recipient);
 }

@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class TurnOnCommand implements Command {
+    private Light light;
 
-public class TurnOnCommand {
+    public TurnOnCommand(Light light) {
+        this.light = light;
+    }
+
+    public void execute() {
+        light.turnOn();
+    }
 }
