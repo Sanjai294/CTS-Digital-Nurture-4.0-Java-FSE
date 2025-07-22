@@ -1,33 +1,45 @@
-# IntelliJ IDEA
+# 👉 IntelliJ IDEA
 .idea/
-out/
 *.iml
+out/
 
-# Eclipse
+# 👉 Eclipse
 .apt_generated
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
 .sts4-cache
 bin/
 
-# NetBeans
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# 👉 NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
 
-# VS Code
+# 👉 Visual Studio Code
 .vscode/
 
-# OS Files
+# 👉 Operating System files
 .DS_Store
 Thumbs.db
 
-# Java Build Outputs
+# 👉 Java build outputs
 *.class
 *.log
 *.tmp
+
+# 👉 React & Node.js projects (Week6 or others)
+**/node_modules/
+**/.env
+**/.cache/
+**/build/
+**/dist/
+*.lock
+
+# 👉 Submodule trace cleanup (if used accidentally)
+.gitmodules
+.git/submodule/
